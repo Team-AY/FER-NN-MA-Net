@@ -166,3 +166,7 @@ cython_debug/
 checkpoint/Pretrained_on_MSCeleb.pth.tar
 
 database/*
+
+log/*
+
+checkpoint/*
