@@ -149,7 +149,7 @@ class AttentionBlock(nn.Module):
 
 class MANet(nn.Module):
 
-    def __init__(self, block_b, block_m, block_a, layers, num_classes=7):
+    def __init__(self, block_b, block_m, block_a, layers, num_classes=12666):
         super(MANet, self).__init__()
         norm_layer = nn.BatchNorm2d
         self._norm_layer = norm_layer
